@@ -1,0 +1,11 @@
+#version 330 core
+
+
+// color to use for fragment
+out vec4 finalColor;
+in vec3 polyColor;
+
+void main()
+{
+  finalColor = vec4(polyColor, 1.0);
+}
